@@ -1,3 +1,7 @@
+;;; Alexander is the 3nd edition of @slightlycyborgs daemon software. It represents a person's spirit animal, much like in the book series "His Dark Materials". In that book series, everyone is born with a daemon, which is an animal that is able to communicate with its human. If the animal and human are seperated by any great distance, it is painful for each of them. Human + Software symbiosis will feel very similar to this daemon concept, which is why I wish to personify and act out that attachment through robots that are inspired by animals. This idea reminds me of the cute feature film "9" which featured rag dolls technologically brought to life after their owner dies.
+
+;;;; The practical intent of this software is that it will enable robots to do useful tasks in a verry organic setting such as a garden, factory, or terraforming project.
+
 (load "timer.lisp")
 (ql:quickload :parachute)
 
