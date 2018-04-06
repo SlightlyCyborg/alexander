@@ -75,8 +75,12 @@
 (defun give-advice ()
   (say "Get to work"))
 
+(defun ra-ra-speach ()
+  (say "Search far and wide. Expend more energy than the next guy. Go for an order of magnitude more energy spent tomorrow"))
+
 
 ;;; Collin's responses
 
 (defun give-me-advice ()
   (give-advice))
+
