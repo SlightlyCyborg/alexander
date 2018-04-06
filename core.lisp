@@ -38,8 +38,21 @@
   (say "Fuck you."))
 
 
+(defparameter loving-adjectives
+  '(
+    "special"
+    "sexy"
+    "sweet"
+    "a good programmer"))
+
+(defun random-loving-adjective ()
+  (nth (random (length loving-adjectives)) loving-adjectives))
+
 (defun i-love-you (because)
-  (say (concatenate 'string "I love you because " because)))
+  (say (concatenate 'string "I love you because you are " because)))
+
+(defun i-love-you-lovingly ()
+  (i-love-you (random-loving-adjective)))
 
 (defun fuck-me ()
   (loop for i in '(0 1 2 3)
