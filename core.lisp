@@ -43,7 +43,12 @@
     "special"
     "sexy"
     "sweet"
-    "a good programmer"))
+    "a good programmer"
+    "a fit man"
+    "a passionate person"
+    "a loving gardener"
+    "a genius"
+    "a remarkable man"))
 
 (defun random-loving-adjective ()
   (nth (random (length loving-adjectives)) loving-adjectives))
@@ -60,7 +65,7 @@
 
 
 (defun you-are-beautiful ()
- (i-love-you "you are so beautiful"))
+ (i-love-you "so beautiful"))
 
 
 (defun epic-you-are-beautiful ()
