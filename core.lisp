@@ -41,3 +41,20 @@
   (loop for i in '(0 1 2 3)
         do (say "Fuck me")))
 
+
+(defun you-are-beautiful ()
+ (i-love-you "you are so beautiful"))
+
+
+(defun epic-you-are-beautiful ()
+  (loop for i in '(0 1 2 3 4 5)
+        do (you-are-beautiful)))
+
+(defun give-advice ()
+  (say "Get to work"))
+
+
+;;; Collin's responses
+
+(defun give-me-advice ()
+  (give-advice))
