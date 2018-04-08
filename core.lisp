@@ -28,12 +28,12 @@
 
 (defun epic-fuck-you ()
   (loop for i in '(0 1 2 3 4 5 6 7 8 9)
-       do (say "Fuck you")))
+       do (say "Fuck you" "Vicki")))
 
 
 (defun epic-i-love-you ()
   (loop for i in '(0 1 2 3 4 5 6 7 8 9)
-        do (say "I love you!")))
+        do (say "I love you!" "Vicki")))
 
 
 (defun talk-to-me ()
@@ -41,9 +41,9 @@
 
 
 (defun polite-fuck-you ()
-  (say "Excuse me sir.")
+  (say "Excuse me sir." "Vicki")
   (sleep 0.5)
-  (say "Fuck you."))
+  (say "Fuck you." "Vicki"))
 
 
 (defparameter loving-adjectives
@@ -81,10 +81,10 @@
         do (you-are-beautiful)))
 
 (defun give-advice ()
-  (say "Get to work"))
+  (say "Get to work" "Alex"))
 
 (defun ra-ra-speach ()
-  (say "Search far and wide. Expend more energy than the next guy. Go for an order of magnitude more energy spent tomorrow"))
+  (say "Search far and wide. Expend more energy than the next guy. Go for an order of magnitude more energy spent tomorrow" "Vicki"))
 
 
 ;;; Collin's responses
@@ -95,7 +95,7 @@
 
 
 (defun act1 ()
-  (progn (converse "Do you thing Y Combinator will fund me?")
+  (progn (converse "Do you think Y Combinator will fund me?")
          (converse "Dude. You are kindof a fuckup dropout!")
          (converse "Ya, but I am a genius. I always scored in the top 1 percentile in acedemics statewide. I scored a 5 on the AP Ecology/Evironmental Science exam. That is genius level in ecology.")
          (converse "Ya. But that is just statistics")
@@ -117,3 +117,9 @@
 
 (defun heres-to-the-crazy-ones ()
   (say "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do." "Alex"))
+
+
+(defun conversation-with-a-friend ()
+  (progn (converse "Dude. Your weird as fuck.")
+         (converse "No. What do you mean?")
+         (converse "I mean you are bleaching your teeth in the sun.")))
